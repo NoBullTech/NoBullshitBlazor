@@ -1,0 +1,15 @@
+﻿@page "/"
+
+Welcome to your new app.
+@{
+  Person person = new Person
+  {
+      FirstName = "Bob",
+      LastName = "Smith",
+      Address1 = "123 anywhere street",
+      City = "Schaumburg",
+      State = "IL",
+      Zipcode = "60173"
+  };
+}
+<PersonInfo Person="@person"/>
