@@ -12,6 +12,6 @@ namespace NoBullshitBlazor.Services.Interfaces
         List<Person> GetPeople();
         Person GetPerson(int id);
         Person GetPerson(string lastName, string firstName);
-        bool DeletePerson(Person person);
+        void DeletePerson(Person person);
     }
 }
